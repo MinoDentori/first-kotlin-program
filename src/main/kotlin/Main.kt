@@ -1,4 +1,9 @@
 package org.example
+
+private const val REQUEST_CITY_MESSAGE = "Enter your city…"
+
 fun main() {
-    println("Hello World!")
+    println(REQUEST_CITY_MESSAGE)
+    val userCity = readln()
+    println("User lives in $userCity")
 }
